@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gestion-salaire-ass-mat"
+version = "0.1.0"
+description = "projet d'application d'aide au calcul du salaire des assistantes maternelles"
+authors = ["perrine <perrine.lepelley@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "gestion_salaire_ass_mat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+ipykernel = "^6.25.2"
+streamlit = "^1.26.0"
+streamlit-calendar = "^0.5.0"
+ics = "^0.7.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
